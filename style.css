@@ -14,12 +14,35 @@ p, h1{
     justify-content: center;
     align-items: center;
 }
+#h1Head{
+    text-shadow: 2px 2px 4px magenta;
+}
+
 .input-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+input{
+	background: linear-gradient(-45deg, #fcc1af, #ff92bc, #92e2ff, #a1ffe9);
+    background-size: 400% 400%;
+    animation: gradient 3s linear infinite;
+    color: black;
+    border: 1px solid #FFAFFA;
+    box-shadow: 0px 0px 20px magenta, 0px 0px 20px magenta;
+}
 
 .rule34gif{
     width: 75px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
