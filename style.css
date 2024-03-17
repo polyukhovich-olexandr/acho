@@ -1,0 +1,25 @@
+body{
+    background-color: #aae5a4;
+    font-family:   Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(179, 0, 173);
+}
+
+.input_numbers{
+    color: red;
+    margin-left: 50%;
+
+}
+p, h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rule34gif{
+    width: 75px;
+}
